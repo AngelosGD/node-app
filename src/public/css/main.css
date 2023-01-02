@@ -1,0 +1,16 @@
+body {
+    background: #202020;
+    color: white;
+}
+.btn-responsive{
+    opacity: 0;
+}
+a {
+    text-decoration: none;
+}
+
+@media (min-width:200px ) and (max-width: 992px) {
+    .btn-responsive{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <%- include ('partials/head') %>
+</head>
+<body>
+
+
+    <%- include('partials/navigation') %>
+
+
+    <div class="pt-2 text-center d-flex justify-content-center align-items-center">
+        <div class="btn-responsive" id="btn-responsive">
+             <button class="btn-lg btn btn-outline-secondary text-white btn-block">
+                 <a href="/" class="text-white">Home</a>
+             </button>
+ 
+             <button class="btn-lg btn btn-outline-secondary text-white ">
+                 <a href="/about" class="text-white">About</a>
+             </button>
+        </div>
+ 
+         
+     </div>
+    <div class="container vh-100 d-flex justify-content-center align-items-center" >
+        
+        <div class="card bg-dark text-white text-center ">
+            <div class="card-header">
+                <h3>Contact Me</h3>
+            </div>
+            <div class="card-body text-start">
+                <form>
+
+                   <div class="mb-3">
+                    <label for="email">Email: </label>
+                    <input type="email" placeholder="Email" class="form-control">
+                   </div>
+
+                    <div class="mb-3">
+                        <label for="message">Message: </label>
+                        <textarea name="message" rows="3" class="form-control" placeholder="Write Your Message"></textarea>
+                    </div>
+
+                    <button class="btn btn-outline-secondary text-white btn-block">
+                        Save
+                    </button>
+                    <br><br>
+                    <div>
+                        <h3>My Social Networks</h3>
+                        <div>
+                            <p>Youtube: <a target="_blank" href="https://www.youtube.com/channel/UCMBoCBsMz62bl0nV2EZVnUQ">AngelosGD</a></p>
+                            <p>GitHub: <a target="_blank" href="https://github.com/AngelosGD">AngelosGD</a></p>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
